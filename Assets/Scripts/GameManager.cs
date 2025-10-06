@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
     public Text scoreText;
-    private int score = 0;
+    public int score = 0;
     private int targetScore = 4;
 
 
